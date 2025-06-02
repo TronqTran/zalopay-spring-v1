@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: zalopay-spring-v1
+zalo-pay:
+  config:
+    appid: 2553
+    key1: PcY4iZIKFCIdgZvA6ueMcMHHUbRLYjPL
+    key2: kLtgPl8HHhfvMuDHPwKfgfsY4Ydm9eIz
+    endpoints:
+      create: https://sb-openapi.zalopay.vn/v2/create
+      banks: https://sbgateway.zalopay.vn/api/getlistmerchantbanks
+      query: https://sb-openapi.zalopay.vn/v2/query
+      refund: https://sb-openapi.zalopay.vn/v2/refund
+      refund-query: https://sb-openapi.zalopay.vn/v2/query_refund
+      call-back: https://webhook.site/07c7a154-e699-4023-b4f3-b7e1b8b74bc5
